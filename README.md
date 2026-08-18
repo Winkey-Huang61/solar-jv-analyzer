@@ -4,7 +4,12 @@ A web-based tool for analysing photovoltaic J-V curves from CSV and Excel files.
 
 ## Preview
 
-![Solar JV Analyzer](asset/demo.png)
+![Solar JV Analyzer](assets/demo.png)
+<p align="center">
+
+  <img src="docs/screenshot.png" width="900">
+
+</p>
 
 ## Features
 
