@@ -1,16 +1,47 @@
-# React + Vite
+# Solar JV Curve Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web-based tool for analysing photovoltaic J-V curves from CSV and Excel files.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Import multiple CSV / Excel files
 
-## React Compiler
+- Plot J-V curves interactively
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Analyse multiple solar-cell samples
 
-## Expanding the ESLint configuration
+- Custom voltage and current column mapping
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Convert current to current density using cell dimensions
+
+- Light and dark mode
+
+- Batch data visualisation
+
+## Tech Stack
+
+- React
+
+- JavaScript
+
+- Vite
+
+- Recharts
+
+- SheetJS (xlsx)
+
+## Motivation
+
+This tool was developed to simplify the analysis of photovoltaic J-V measurements.
+
+It provides a convenient workflow for importing experimental data, visualising J-V curves,
+
+and comparing multiple photovoltaic devices.
+
+## Getting Started
+
+Install dependencies:
+
+```bash
+
+npm install

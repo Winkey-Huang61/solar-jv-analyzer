@@ -13,6 +13,7 @@ const COLORS = [
 ];
 
 const DARK = {
+  
   bg:"#0a0a0f", surface:"#0d0d15", surface2:"#0f0f18",
   border:"#1e2030", border2:"#13131a",
   text:"#e8e4d9", textMuted:"#9ca3af", textDim:"#6b7280",
